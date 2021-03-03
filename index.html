@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BelSalute - we make unique products in health and beauty niche">
+    <title>BelSalute</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cookie-popup.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <script data-polyfil="webp">
+        ! function (e, n, A) {
+          function o(e, n) {
+            return typeof e === n
+          }
+    
+          function t() {
+            var e, n, A, t, a, i, l;
+            for (var f in r)
+              if (r.hasOwnProperty(f)) {
+                if (e = [], n = r[f], n.name && (e.push(n.name.toLowerCase()), n.options && n.options.aliases && n.options
+                    .aliases.length))
+                  for (A = 0; A < n.options.aliases.length; A++) e.push(n.options.aliases[A].toLowerCase());
+                for (t = o(n.fn, "function") ? n.fn() : n.fn, a = 0; a < e.length; a++) i = e[a], l = i.split("."), 1 === l
+                  .length ? Modernizr[l[0]] = t : (!Modernizr[l[0]] || Modernizr[l[0]] instanceof Boolean || (Modernizr[l[
+                    0]] = new Boolean(Modernizr[l[0]])), Modernizr[l[0]][l[1]] = t), s.push((t ? "" : "no-") + l.join("-"))
+              }
+          }
+    
+          function a(e) {
+            var n = u.className,
+              A = Modernizr._config.classPrefix || "";
+            if (c && (n = n.baseVal), Modernizr._config.enableJSClass) {
+              var o = new RegExp("(^|\s)" + A + "no-js(\s|$)");
+              n = n.replace(o, "$1" + A + "js$2")
+            }
+            Modernizr._config.enableClasses && (n += " " + A + e.join(" " + A), c ? u.className.baseVal = n : u.className =
+              n)
+          }
+    
+          function i(e, n) {
+            if ("object" == typeof e)
+              for (var A in e) f(e, A) && i(A, e[A]);
+            else {
+              e = e.toLowerCase();
+              var o = e.split("."),
+                t = Modernizr[o[0]];
+              if (2 == o.length && (t = t[o[1]]), "undefined" != typeof t) return Modernizr;
+              n = "function" == typeof n ? n() : n, 1 == o.length ? Modernizr[o[0]] = n : (!Modernizr[o[0]] || Modernizr[o[
+                0]] instanceof Boolean || (Modernizr[o[0]] = new Boolean(Modernizr[o[0]])), Modernizr[o[0]][o[1]] = n), a(
+                [(n && 0 != n ? "" : "no-") + o.join("-")]), Modernizr._trigger(e, n)
+            }
+            return Modernizr
+          }
+          var s = [],
+            r = [],
+            l = {
+              _version: "3.6.0",
+              _config: {
+                classPrefix: "",
+                enableClasses: !0,
+                enableJSClass: !0,
+                usePrefixes: !0
+              },
+              _q: [],
+              on: function (e, n) {
+                var A = this;
+                setTimeout(function () {
+                  n(A[e])
+                }, 0)
+              },
+              addTest: function (e, n, A) {
+                r.push({
+                  name: e,
+                  fn: n,
+                  options: A
+                })
+              },
+              addAsyncTest: function (e) {
+                r.push({
+                  name: null,
+                  fn: e
+                })
+              }
+            },
+            Modernizr = function () {};
+          Modernizr.prototype = l, Modernizr = new Modernizr;
+          var f, u = n.documentElement,
+            c = "svg" === u.nodeName.toLowerCase();
+          ! function () {
+            var e = {}.hasOwnProperty;
+            f = o(e, "undefined") || o(e.call, "undefined") ? function (e, n) {
+              return n in e && o(e.constructor.prototype[n], "undefined")
+            } : function (n, A) {
+              return e.call(n, A)
+            }
+          }(), l._l = {}, l.on = function (e, n) {
+            this._l[e] || (this._l[e] = []), this._l[e].push(n), Modernizr.hasOwnProperty(e) && setTimeout(function () {
+              Modernizr._trigger(e, Modernizr[e])
+            }, 0)
+          }, l._trigger = function (e, n) {
+            if (this._l[e]) {
+              var A = this._l[e];
+              setTimeout(function () {
+                var e, o;
+                for (e = 0; e < A.length; e++)(o = A[e])(n)
+              }, 0), delete this._l[e]
+            }
+          }, Modernizr._q.push(function () {
+            l.addTest = i
+          }), Modernizr.addAsyncTest(function () {
+            function e(e, n, A) {
+              function o(n) {
+                var o = n && "load" === n.type ? 1 == t.width : !1,
+                  a = "webp" === e;
+                i(e, a && o ? new Boolean(o) : o), A && A(n)
+              }
+              var t = new Image;
+              t.onerror = o, t.onload = o, t.src = n
+            }
+            var n = [{
+                uri: "data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=",
+                name: "webp"
+              }, {
+                uri: "data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",
+                name: "webp.alpha"
+              }, {
+                uri: "data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",
+                name: "webp.animation"
+              }, {
+                uri: "data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+                name: "webp.lossless"
+              }],
+              A = n.shift();
+            e(A.name, A.uri, function (A) {
+              if (A && "load" === A.type)
+                for (var o = 0; o < n.length; o++) e(n[o].name, n[o].uri)
+            })
+          }), t(), a(s), delete l.addTest, delete l.addAsyncTest;
+          for (var p = 0; p < Modernizr._q.length; p++) Modernizr._q[p]();
+          e.Modernizr = Modernizr
+        }(window, document)
+      </script>
+  </head>
+
+  <body>
+    <div class="privacy">
+  <h2>Make Profit SRL Terms of Service</h2>
+
+  <h3>1. Terms</h3>
+
+  <p>
+    By accessing the website at <a href="/">Belsalute</a>, you are agreeing to be bound by these terms of service (the "Terms and Conditions"), all
+    applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of
+    these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright
+    and trademark law.
+  </p>
+
+  <h3>2. Use License</h3>
+
+  <ol type="a">
+    <li>
+      Permission is granted to temporarily download one copy of the materials (information or software) on Make Profit SRL's website for personal,
+      non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+      <ol type="i">
+        <li>modify or copy the materials;</li>
+        <li>use the materials for any commercial purpose, or for any public display (commercial or non-commercial);</li>
+        <li>attempt to decompile or reverse engineer any software contained on Make Profit SRL's website;</li>
+        <li>remove any copyright or other proprietary notations from the materials; or</li>
+        <li>transfer the materials to another person or "mirror" the materials on any other server.</li>
+      </ol>
+    </li>
+    <li>
+      This license shall automatically terminate if you violate any of these restrictions and may be terminated by Make Profit SRL at any time. Upon
+      terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your
+      possession whether in electronic or printed format.
+    </li>
+  </ol>
+
+  <h3>3. Disclaimer</h3>
+
+  <ol type="a">
+    <li>
+      The materials on Make Profit SRL's website are provided on an 'as is' basis. Make Profit SRL makes no warranties, expressed or implied, and
+      hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness
+      for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+    </li>
+    <li>
+      Further, Make Profit SRL does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the
+      materials on its website or otherwise relating to such materials or on any sites linked to this site.
+    </li>
+  </ol>
+
+  <h3>4. Limitations</h3>
+
+  <p>
+    In no event shall Make Profit SRL or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit,
+    or due to business interruption) arising out of the use or inability to use the materials on Make Profit SRL's website, even if Make Profit SRL or
+    a Make Profit SRL authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions
+    do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not
+    apply to you.
+  </p>
+
+  <h3>5. Accuracy of materials</h3>
+
+  <p>
+    The materials appearing on Make Profit SRL's website could include technical, typographical, or photographic errors. Make Profit SRL does not
+    warrant that any of the materials on its website are accurate, complete or current. Make Profit SRL may make changes to the materials contained on
+    its website at any time without notice. However Make Profit SRL does not make any commitment to update the materials.
+  </p>
+
+  <h3>6. Links</h3>
+
+  <p>
+    Make Profit SRL has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The
+    inclusion of any link does not imply endorsement by Make Profit SRL of the site. Use of any such linked website is at the user's own risk.
+  </p>
+
+  <h3>7. Modifications</h3>
+
+  <p>
+    Make Profit SRL may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound
+    by the then current version of these terms of service.
+  </p>
+
+  <h3>8. Governing Law</h3>
+
+  <p>
+    These terms and conditions are governed by and construed in accordance with the laws of EU and you irrevocably submit to the exclusive
+    jurisdiction of the courts in that State or location.
+  </p>
+</div>
+
+
+    <div class="cookie-popup" style="display: none;">
+      <div class="close-cookie-popup">&times;</div>
+      <div class="cookie-popup-inner">This site uses cookies. By continuing to browse the site, you are agreeing to our use of cookies.
+        <a href="/cookie-policy" target="_blank">Learn more</a>
+      </div>
+      <div class="dismiss-popup">OK</div>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.selectric.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/libphonenumber.js"></script>
+    <script src="js/cookie-popup.js"></script>
+    <script src="js/rx.all.js"></script>
+    <script src="js/rx.jquery.js"></script>
+    <!-- Hotjar Tracking Code for https://belsalute.com -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:2253983,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="js_1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-EGHTZNYPGG');
+    </script>
+    
+  </body>
+</html>
